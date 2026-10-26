@@ -49,6 +49,7 @@ results/               anonymised results ledger and the paper's figures
 | `04_train_final.py` | archival ensemble trained on all patients |
 | `05_make_report.py` … `11_learning_curves.py` | reports, network comparison, patient-level and post hoc analyses, repeated cross-validation, Grad-CAM, learning curves |
 | `12_results_ledger.py` | every reported number, read from the result files |
+| `14_revision_analyses.py` | numbers added in response to the pre-submission review (calibration CIs, stratified learning curves, Grad-CAM flat maps) |
 | `13_paper_figures.py` | the manuscript's figures (anonymised) |
 | `99_selftest.py` | automated correctness tests, run before every analysis |
 | `predict.py`, `download_models.py`, `export_models.py` | use, fetch and package the trained models |
