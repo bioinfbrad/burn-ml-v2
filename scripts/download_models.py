@@ -8,7 +8,7 @@ check every file against its published SHA-256. Standard library only.
 """
 import argparse, hashlib, os, sys, tempfile, urllib.error, urllib.request, zipfile
 
-REPO = "https://github.com/bioinfbrad/burn-ml"
+REPO = "https://github.com/bioinfbrad/burn-ml-v2"
 # SHA-256 of each published model bundle, checked automatically on download.
 KNOWN_SHA256 = {
     "2.0.0": "86c458507d9ae1069440f02d92d2ae41fd3003be28777e6538bc14eac5900cf9",

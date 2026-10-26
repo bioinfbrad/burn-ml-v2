@@ -94,7 +94,7 @@ def main():
                          "recipe": rec.get("recipe")},
             "cross_validated_performance": cv_summary(os.path.join(cvr, task, a.backbone, "metrics.json"), labels),
             "intended_use": INTENDED_USE, "limitations": LIMITATIONS,
-            "licence": "AGPL-3.0 (see LICENSE in https://github.com/bioinfbrad/burn-ml)",
+            "licence": "AGPL-3.0 (see LICENSE in https://github.com/bioinfbrad/burn-ml-v2)",
             "exported": datetime.date.today().isoformat(),
         }
         json.dump(card, open(os.path.join(tdir, "model_card.json"), "w"), indent=2)

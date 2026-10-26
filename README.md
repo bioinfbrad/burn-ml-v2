@@ -59,7 +59,7 @@ results/               anonymised results ledger and the paper's figures
 No training and no GPU are needed. The trained ensembles (three EfficientNetB0 networks per task, trained on all patients) are published as a release download, with a model card describing their intended use and limitations.
 
 ```sh
-git clone https://github.com/bioinfbrad/burn-ml && cd burn-ml
+git clone https://github.com/bioinfbrad/burn-ml-v2 && cd burn-ml-v2
 python3.10 -m venv .venv && . .venv/bin/activate     # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python scripts/download_models.py                    # -> models/ (files checked against SHA-256)

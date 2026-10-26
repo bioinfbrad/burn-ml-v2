@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below, together with the associated paper."
 title: "burn-ml: patient-level evaluation of convolutional neural networks for burn images"
-version: 2.0.0
+version: 2.2.3
 date-released: 2026-10-20
-repository-code: "https://github.com/bioinfbrad/burn-ml"
+repository-code: "https://github.com/bioinfbrad/burn-ml-v2"
 authors:
   - family-names: Smith
     given-names: Kirsty
