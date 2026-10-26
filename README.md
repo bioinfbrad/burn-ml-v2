@@ -1,4 +1,5 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23668432.svg)](https://doi.org/10.5281/zenodo.23668432)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23671132.svg)](https://doi.org/10.5281/zenodo.23671132)
+
 
 
 # burn-ml: patient-level evaluation of convolutional neural networks for burn images
