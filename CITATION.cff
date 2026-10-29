@@ -16,7 +16,7 @@ authors:
 identifiers:
   - type: doi
     value: 10.5281/zenodo.23513132
-    description: "Zenodo archive of version 2.0.0: code and trained models"
+    description: "Zenodo archive of version 2.2.3: code and trained models"
   - type: doi
     value: 10.5281/zenodo.19708993
     description: "Archive of version 1.0.0 (the preliminary analysis, superseded by this version)"
